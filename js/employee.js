@@ -49,6 +49,22 @@ rows.append("td")
  rows.append("td")
  .text(function(person) {return person.unit;})
  
+ var mail = d3.select("tbody")
+ .selectAll("tr")
+ .data(employees)
+ .enter()
+ .append("tr")
+ rows.append("td")
+ .text(function(person) {return person.email;})
+ 
+ var bio = d3.select("tbody")
+ .selectAll("tr")
+ .data(employees)
+ .enter()
+ .append("tr")
+ rows.append("td")
+ .text(function(person) {return person.bio;})
+ 
 }
 
 var failFCN = function(errorMsg)
