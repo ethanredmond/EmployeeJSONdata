@@ -1,8 +1,8 @@
-.employee {border-style: solid; padding: 5px; border-radius: 20px; height: 150px;}
+.employee {border-style: solid; padding: 5px; border-radius: 20px; height: 150px; width: 750px;}
 .eName {float: left; clear: left; padding: 10px; }
 img {float: left; clear: left;}
 
-.title{position: absolute; left: 200px; top: 15px;}
-.department{position: absolute; left: 200px; top: 30px;}
-.email {position: absolute;  left: 200px; top: 45px; width: }
-.bio {width: 600; height: 0px; float: right; }
+.title{position: absolute; left: 200px; top: 15px; padding: 5px;}
+.department{position: absolute; left: 200px; top: 30px; padding: 5px;}
+.email {position: absolute;  left: 200px; top: 45px; padding: 5px; }
+.bio {width: 600px; position: absolute; left: 150px; top: 60px;}
