@@ -1,7 +1,8 @@
-.employee {border-style: solid; padding: 5px; border-radius: 20px;}
-.eName  {float: left; clear: left;}
-img {float: left: clear: left;}
+.employee {border-style: solid; padding: 5px; border-radius: 20px; height: 150px;}
+.eName {float: left; clear: left; padding: 10px; }
+img {float: left; clear: left;}
 
-.title{float: left; clear: left; left: 180px;}
-.department{float: left; clear: left; left: 180px;}
-.email {float: left; clear: left; left: 180px;}
+.title{position: absolute; left: 200px; top: 15px;}
+.department{position: absolute; left: 200px; top: 30px;}
+.email {position: absolute;  left: 200px; top: 45px; width: }
+.bio {width: 600; height: 0px; float: right; }
